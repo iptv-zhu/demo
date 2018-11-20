@@ -21,7 +21,7 @@ public class ActivityManager {
     //Activity的添加
     public void addActivity(Activity activity){
         if(activity != null) {
-            activityStack.add(activity);
+            activityStack.add(activity);;
         }
     }
 
